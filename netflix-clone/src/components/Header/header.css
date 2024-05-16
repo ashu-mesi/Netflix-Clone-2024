@@ -1,4 +1,5 @@
 .header-outer-container{
+    font-family: sans-serif;
     position: sticky;
     top: 0;
     display: flex;
@@ -37,4 +38,15 @@
     align-items: center;
     list-style: none;
     cursor: pointer;
+}
+
+@media screen and (min-width:576px){
+    .header-outer-container{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+   
 }
